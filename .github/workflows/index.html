@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Legacy Funeral Service</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400;600&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#" class="logo">
+          <img
+            src="images/logo-removebg-preview.png"
+            alt="Legacy Funeral Service Logo"
+          />
+        </a>
+        <div
+          class="burger"
+          id="burger"
+          aria-label="Open navigation"
+          tabindex="0"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a
+              href="https://wa.me/264816303163"
+              target="_blank"
+              class="whatsapp-btn"
+              title="WhatsApp"
+            >
+              <img
+                src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg"
+                alt="WhatsApp"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header class="hero" id="home">
+      <div class="hero-overlay">
+        <h1 class="hero-title">
+          <span class="hero-word hero-word1">Honoring</span>
+          <span class="hero-word hero-word2">Lives,</span>
+          <span class="hero-word hero-word3">Celebrating</span>
+          <span class="hero-word hero-word4">Legacies</span>
+        </h1>
+        <p>
+          Compassionate funeral and cemetery services in Otavi, Tsumeb,
+          Otjiwarongo & Grootfontein.
+        </p>
+        <div class="hero-contact">
+          <span>📞 +264 81 630 3163</span> •
+          <span>✉️ support@legacyfunerals1.com</span>
+        </div>
+        <div class="hero-actions">
+          <a href="#services" class="btn btn-gold">Plan with Us</a>
+          <a href="#contact" class="btn btn-green-outline"
+            >Contact Our Support Team</a
+          >
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="about" id="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>Our Mission</h3>
+            <p>
+              To serve Namibian families with integrity, compassion, and
+              attention to every detail—ensuring that each funeral is a
+              meaningful tribute.
+            </p>
+            <h3>Our Story</h3>
+            <p>
+              Founded in Otavi, Legacy Funeral Service has grown to serve the
+              broader Otavi Triangle—Tsumeb, Otjiwarongo, Grootfontein—and,
+              thanks to our national partnerships, clients countrywide.
+            </p>
+            <h3>Why Choose Us?</h3>
+            <ul>
+              <li>Family-Owned, Community-Focused</li>
+              <li>Transparent Pricing & Flexible Packages</li>
+              <li>24/7 Support & Emergency Removal</li>
+              <li>Trusted Partnerships (e.g., SSC casket discount)</li>
+            </ul>
+          </div>
+          <div class="about-photos">
+            <img src="images/logo.jpg" alt="Family Team" class="about-photo" />
+            <!-- Add more team/family photos here -->
+          </div>
+        </div>
+      </section>x
+      <section class="services" id="services">
+        <h2>Our Services</h2>
+        <div class="services-cards">
+          <div class="service-card">
+            <div class="service-icon">&#128467;</div>
+            <h3>Funeral Planning & Ceremony</h3>
+            <p>
+              Complete end-to-end management—from chapel bookings to
+              personalized obituary creation and on-site coordination.
+            </p>
+            <a href="#" class="learn-more">Learn More</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">&#9904;</div>
+            <h3>Burial & Cremation Services</h3>
+            <p>
+              Traditional earth burial, gravesite selection, casket options, and
+              full ceremony support. Modern crematorium facilities with
+              personalized urn choices.
+            </p>
+            <a href="#" class="learn-more">Learn More</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">&#128663;</div>
+            <h3>Repatriation of Remains</h3>
+            <p>
+              Professional, dignified removal from home or hospital. Local
+              repatriation handled with care.
+            </p>
+            <a href="#" class="learn-more">Learn More</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">&#128296;</div>
+            <h3>Tombstone Design & Installation</h3>
+            <p>
+              Custom design and installation of gravestones, plaques, and
+              memorial monuments.
+            </p>
+            <a href="#" class="learn-more">Learn More</a>
+          </div>
+        </div>
+      </section>
+      <section class="gallery" id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid" id="gallery-grid">
+          <!-- Images will be rendered by JS -->
+        </div>
+        <br />
+
+        b
+        <div class="gallery-controls">
+          <button id="gallery-prev" class="gallery-nav-btn">Previous</button>
+          <button id="gallery-next" class="gallery-nav-btn">Next</button>
+        </div>
+      </section>
+      <!-- Promotion Section -->
+      <section class="promotion" id="promotion">
+        <h2>Promotion</h2>
+        <div class="promotion-grid" id="promotion-grid">
+          <!-- Promotion images will be rendered by JS -->
+        </div>
+        <div class="promotion-controls">
+          <button id="promotion-prev" class="gallery-nav-btn">Previous</button>
+          <button id="promotion-next" class="gallery-nav-btn">Next</button>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form" autocomplete="off">
+          <div class="form-row">
+            <input type="text" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-row">
+            <input
+              type="text"
+              name="relation"
+              placeholder="Relation to Deceased (optional)"
+            />
+          </div>
+          <div class="form-row">
+            <select name="service">
+              <option value="">Service Interest</option>
+              <option>Funeral Planning</option>
+              <option>Burial</option>
+              <option>Cremation</option>
+              <option>Repatriation</option>
+              <option>Tombstone</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              rows="4"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-gold">Submit</button>
+        </form>
+        <div class="contact-direct">
+          <p><strong>📞 +264 81 630 3163</strong></p>
+          <p><strong>✉️ support@legacyfunerals1.com</strong></p>
+          <div class="contact-socials">
+            <a href="https://facebook.com/legacyfunerals1" target="_blank"
+              >Facebook</a
+            >
+            |
+            <a
+              href="https://instagram.com/legacy_funerals_service"
+              target="_blank"
+              >Instagram</a
+            >
+            |
+            <a href="https://tiktok.com/@legacy.funerals" target="_blank"
+              >TikTok</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-locations">
+          <h4>Our Locations</h4>
+          <ul>
+            <li>
+              <strong>Otavi:</strong> Republik St, opposite Otavi Police Station
+            </li>
+            <li>
+              <strong>Tsumeb</strong>
+            </li>
+            <li>
+              <strong>Otjiwarongo</strong>
+            </li>
+            <li>
+              <strong>Grootfontein</strong>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-promos">
+          <h4>Promotions & Partners</h4>
+          <p>
+            Receive N$ 4 500 off any casket purchase through our SSC
+            partnership. Contact us to claim your discount today.
+          </p>
+          <ul>
+            <li>SSC (caskets & coffins)</li>
+            <li>Local transport and embalming specialists</li>
+          </ul>
+        </div>
+        <div class="footer-testimonials">
+          <h4>Testimonials</h4>
+          <div class="testimonial-slider">
+            <blockquote>
+              “Legacy made a difficult time easier—every detail was handled with
+              dignity.”<br /><span>– The M. Family</span>
+            </blockquote>
+            <blockquote>
+              “Professional, caring, and so respectful. Highly recommend.”<br /><span
+                >– J. T.</span
+              >
+            </blockquote>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2025 Legacy Funeral Service. All rights reserved.</span>
+      </div>
+    </footer>
+    <div class="whatsapp-chat-bubble">
+      <a
+        href="https://wa.me/264816303163"
+        target="_blank"
+        title="Chat on WhatsApp"
+      >
+        <img
+          src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg"
+          alt="WhatsApp"
+        />
+      </a>
+    </div>
+  </body>
+</html>
